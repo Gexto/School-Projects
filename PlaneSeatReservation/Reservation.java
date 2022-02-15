@@ -1,4 +1,4 @@
-# School-Projectsimport java.util.Scanner;
+import java.util.Scanner;
 import java.util.Arrays;
 
 public class Reservation {
