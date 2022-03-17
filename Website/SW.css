@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding 0;
+  font-family: arial;
+}
+/*Centered background image and moved the links to the top right*/
+header{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+ul{
+  float: left;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+/*Decorating the link below */
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+/*This makes the link bold when you are active on it's page */
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+/*Title adjustments below*/
+.title{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  right: -47%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+  letter-spacing: 2px;
+  font-family: impact;
+  color: #fff;
+  font-size: 100px;
+}
+
+/*small-title adjustments below*/
+.desc{
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  right: -40%;
+  transform: translate(-50%,-50%);
+}
+.desc h1{
+  letter-spacing: 2px;
+  font-family: impact;
+  color: #fff;
+  font-size: 20px;
+}
+
+/*Sub-Title adjustments below*/
+.sub-title{
+  position: absolute;
+  top: 75%;
+  left: 51%;
+  right: -47%;
+  transform: translate(-50%,-50%);
+}
+.sub-title h1{
+  letter-spacing: 1px;
+  font-family: impact;
+  color: #fff;
+  font-size: 60px;
+}
+
+img
+{
+display:block
+margin-left:auto
+margin-right:auto
+width:400px
+}
+.poster img{
+  float: left;
+  width: 300px;
+  height: 420px;
+  padding: 40px;
+}
+.summary{
+  padding: 70px;
+}
+/*The code below is for the information underneath the title*/
+.prompt{
+  position: absolute;
+  top: 80%;
+  left: 2%;
+  right: 2%;
+}
+.prompt{
+  color: #fff;
+  font-size: 20px;
+  font-family: impact;
+  background-image: linear-gradient(rgba(1,0,0,0.6),rgba(1,0,0,0.6));
+}
+
+.hit{
+  font-family: impact;
+  font-size: 30px;
+}
+
+/*background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));*/
